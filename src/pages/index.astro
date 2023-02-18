@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>Welcome to my personal blog!</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -39,21 +39,55 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           ></path><circle cx="6" cy="18" r="2"></circle>
         </svg>
       </a>
-      <h4 class="this-tlw">Hello</h4>
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        My name is Gerardo Ramirez and I am an electronics engineer with a
+        passion for learning and exploring different fields. Through this blog,
+        I aim to share my thoughts, experiences, and insights on various topics
+        related to my interests and expertise. I believe that by sharing my
+        knowledge and experiences, I can contribute to a community of learners
+        and creators who are eager to grow and improve.
       </p>
       <p>
-        Read the blog posts or check
+        As a software developer, I have experience in designing, developing,
+        testing, and deploying software applications for various platforms, from
+        web to mobile. I have worked on various projects, from developing
+        small-scale applications for personal projects to collaborating with
+        teams on large-scale systems for commercial applications.
+      </p>
+      <p>
+        In addition to my professional work, my background in electronics
+        engineering has provided me with a solid foundation in fundamental
+        concepts and principles that I apply to my software development work. My
+        studies in circuit theory, digital systems, and microcontroller
+        programming have given me a unique perspective on the software
+        development process and have helped me approach problems in a more
+        systematic and efficient way.
+      </p>
+      <p>
+        I hope that you will find my blog and portfolio informative and
+        engaging, and that they will inspire you to learn, create, and share
+        your own experiences and insights. Thank you for taking the time to
+        visit and learn more about me.
+      </p>
+      <p>
         <LinkButton
           className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
+          href="#work"
         >
-          README
-        </LinkButton> for more info.
+          My Work
+        </LinkButton>
+        <LinkButton
+          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed ml-5"
+          href="#experience"
+        >
+          My Experience
+        </LinkButton>
+        <LinkButton
+          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed ml-5"
+          href="#gallery"
+        >
+          Gallery
+        </LinkButton>
       </p>
       {
         // only display if at least one social link is enabled
@@ -126,7 +160,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     @apply pt-8 pb-6;
   }
   #hero h1 {
-    @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
+    @apply my-4 inline-block text-2xl font-bold sm:my-8 sm:text-2xl;
   }
   #hero .rss-link {
     @apply mb-6;
@@ -135,7 +169,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     @apply mb-2 h-6 w-6 scale-110 fill-skin-accent sm:mb-3 sm:scale-125;
   }
   #hero p {
-    @apply my-2;
+    @apply my-6;
   }
   .social-wrapper {
     @apply mt-4 flex flex-col sm:flex-row sm:items-center;

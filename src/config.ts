@@ -4,7 +4,7 @@ export const SITE = {
   website: "https://blog.gerardoraor.com/",
   author: "Gerardo Ramirez",
   desc: "Gerardo's Blog, built with Astro Paper",
-  title: "Gerardo's",
+  title: "Gerardo's Blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
